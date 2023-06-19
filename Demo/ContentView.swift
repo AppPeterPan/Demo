@@ -17,6 +17,9 @@ struct ContentView: View {
                 .font(.largeTitle)
         }
         .padding()
+        .background {
+            Color.yellow
+        }
     }
 }
 
